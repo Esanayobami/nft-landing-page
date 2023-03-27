@@ -13,7 +13,7 @@ const HeroTexts = () => {
                     {description}
                     <span className="text-blue">{lastThreeWords}</span>
                 </h1>
-                <p className="text-xl py-2 font-normal text-grey md:font-semibold ">{heroSubDescription} </p>
+                <p className="text-xl py-2 font-normal text-grey md:font-semibold md:pt-4">{heroSubDescription} </p>
             </div>
         </section>
      )

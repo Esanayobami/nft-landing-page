@@ -4,9 +4,9 @@ import HeroMenu from "./Index/HeroMenu.sub";
 import HeroImg from "./Index/HeroImg.sub";
 const Hero = () => {
     return ( 
-        <section >
+        <section className=" my-2" >
             <div className="flex flex-col md:flex-row ">
-                <div className="md:basis-2/4">
+                <div className="md:basis-2/4 md:flex flex-col justify-between ">
                     <HeroTexts />
                     <HeroButton />
                     <HeroMenu />
