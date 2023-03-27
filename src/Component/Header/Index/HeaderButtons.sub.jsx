@@ -2,7 +2,7 @@ import Button from "../../../Reusables/Button/Button";
 
 const Headerbutton = () => {
 
-    const { title, onClick, className, icon: Icon, bgColor } = Button
+    const { title, onClick, className, icon: Icon, bgColor } = Button;
 
     return ( 
         <div className="flex flex-col md:flex-row gap-3">

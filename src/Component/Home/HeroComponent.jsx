@@ -1,19 +1,19 @@
-import { HeroData } from "./Hero_Data";
-
+import HeroTexts from "./Index/Herotexts.sub";
+import HeroButton from "./Index/HeroButton.sub";
+import HeroMenu from "./Index/HeroMenu.sub";
+import HeroImg from "./Index/HeroImg.sub";
 const Hero = () => {
-    const { heroDescription , heroSubDescription } = HeroData;
-    const { description , blueText } = heroDescription;
-    const { firstWord , lastThreeWords } = blueText;
-
     return ( 
-        <section>
-            <div>
-                <h1>
-                    <span>{firstWord}</span>
-                    {description}
-                    <span>{lastThreeWords}</span>
-                </h1>
-                <p>{heroSubDescription} </p>
+        <section >
+            <div className="flex flex-col md:flex-row ">
+                <div className="md:basis-2/4">
+                    <HeroTexts />
+                    <HeroButton />
+                    <HeroMenu />
+                </div>
+                <div className="md:basis-2/4">
+                    <HeroImg />
+                </div>
             </div>
         </section>
      )
