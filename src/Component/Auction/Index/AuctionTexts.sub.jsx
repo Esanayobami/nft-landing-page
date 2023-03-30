@@ -7,7 +7,6 @@ const AuctionTexts = () => {
             <p className=" text-grey text-xl font-medium">{about  }</p>
             <h1 className=" text-black text-3xl font-medium">{type} </h1>
             <p className=" text-grey text-xl font-medium">{description} </p>
-            
         </div>
      )
 }
