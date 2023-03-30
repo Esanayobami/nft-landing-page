@@ -2,7 +2,7 @@ import { PriceData } from "../Hero_Data";
 
 const HeroMenu = () => {
     return ( 
-        <div className="flex justify-between items-center py-6 px-4 md:pt-6 lg:px-0">
+        <div className="flex justify-between items-center py-6 px-4 md:pt-6 lg:px-0 md:justify-start md:gap-6">
             {
               PriceData.map((item) => (
                     <div  key={item.id} className=" even:border-x-2 even:px-3 even:border-black" >
