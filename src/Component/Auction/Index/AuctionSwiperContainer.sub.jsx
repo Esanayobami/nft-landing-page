@@ -6,12 +6,10 @@ import AuctionSwiper from "./AuctionSwiper.sub";
 const AuctionSwiperContainer = () => {
     return ( 
         <div>
-            <Swiper
-            >
-                <SwiperSlide>
+           
+                
                     <AuctionSwiper />
-                </SwiperSlide>
-            </Swiper>
+              
         </div>
      )
 }
