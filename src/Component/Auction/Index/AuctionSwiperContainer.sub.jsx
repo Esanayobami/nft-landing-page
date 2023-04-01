@@ -1,4 +1,4 @@
-import { Swiper  , SwiperSlide } from "swiper/react"
+
 
 import AuctionSwiper from "./AuctionSwiper.sub";
 
