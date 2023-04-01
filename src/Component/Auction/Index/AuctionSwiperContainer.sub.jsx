@@ -5,11 +5,8 @@ import AuctionSwiper from "./AuctionSwiper.sub";
 
 const AuctionSwiperContainer = () => {
     return ( 
-        <div>
-           
-                
-                    <AuctionSwiper />
-              
+        <div className="overflow-x-scroll  " >     
+             <AuctionSwiper />
         </div>
      )
 }
