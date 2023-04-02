@@ -1,7 +1,7 @@
 import { useEffect , useState } from "react";
 
 const Countdown = () => {
-    const [countDown , setCountDown ] = useState({hours : 10 , minutes : 1, seconds : 3})
+    const [countDown , setCountDown ] = useState({hours : 2 , minutes : 1, seconds : 3})
     
     useEffect(()=>{
         const interval = setInterval(() => {
